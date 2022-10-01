@@ -1,0 +1,119 @@
+ * Question:WAP to show difference between Structure and Union.
+
+
+  =Answer:
+
+	What is Structure?
+
+
+	Structure is a user-defined data type in C programming language that 	        combines logically related data items of different data types together.
+
+	All the structure elements are stored at contiguous memory locations. 	        Structure type variable can store more than one data item of varying 	        data types under one name.
+
+	
+	Syntax of Declaring Structure:
+
+
+        struct [name of the structure]
+
+          {
+       		type member1;
+       		type member2;
+       		type member3;
+          };
+
+	
+	Structure is declared using the “struct” keyword and name of structure.         Number 1, number 2, number 3 are individual members of structure. The           body part is terminated with a semicolon (;).
+
+	
+	What is Union:
+
+	
+       Union is a user-defined data type, just like a structure. Union                 combines objects of different types and sizes together. The union               variable allocates the memory space equal to the space to hold the              largest variable of union. It allows varying types of objects to share          the same location.
+
+
+       Syntax of Declaring Union:
+
+
+	union [name of union]
+
+         {
+      		 type member1;
+      		 type member2;
+       		 type member3;
+    	 };
+
+
+
+	Here is the important difference between structure and union:
+
+		
+	Structure:
+
+	.You can use a struct keyword to define a structure.
+	.Every member within structure is assigned a unique memory location.
+	.Changing the value of one data member will not affect other data                members in structure.
+	.It enables you to initialize several members at once.
+	.The total size of the structure is the sum of the size of every data            member.
+	.It is mainly used for storing various data types.
+        .It occupies space for each and every member written in inner                   parameters.
+	.You can retrieve any member at a time.
+	.It supports flexible array.
+
+
+
+	Union:
+
+	.You can use a union keyword to define a union.
+	.In union, a memory location is shared by all the data members.
+   	.Changing the value of one data member will change the value of other            data members in union.
+	.It enables you to initialize only the first member of union.
+	.The total size of the union is the size of the largest data member.
+	.It is mainly used for storing one of the many data types that are               available.
+	.It occupies space for a member having the highest size written in               inner parameters.
+	.You can access one member at a time in the union.
+	.It does not support a flexible array.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
