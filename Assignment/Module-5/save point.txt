@@ -1,0 +1,56 @@
+
+   Q-9: What is save Point? How to create a save Point write         a Query? 
+
+   
+       Answer ->
+
+       * Savepoint in SQL :-
+
+     . Savepoint is a command in SQL that is used with the           rollback command.
+
+     . It is a command in Transaction Control Language that          is used to mark the transaction in a table.
+
+     . Consider you are making a very long table, and you            want to roll back only to a certain position in a             table then; this can be achieved using the savepoint.
+
+     . If you made a transaction in a table, you could mark          the transaction as a certain name, and later on, if           you want to roll back to that point, you can do it            easily by using the transaction's name.
+
+     . Savepoint is helpful when we want to roll back only a         small part of a table and not the whole table. In             simple words, we can say savepoint is a bookmark in           SQL.
+
+            Let us see the practical examples to understand        this concept more clearly. We will use the MySQL              database for writing all the queries.
+
+            
+     * create a save Point write a Query ? 
+
+
+         A SAVEPOINT is a point in a transaction in which         you can roll the transaction back to a certain point         without rolling back the entire transaction. 
+ 
+
+         Syntax for Savepoint command: 
+ 
+
+         SAVEPOINT SAVEPOINT_NAME;
+
+
+   * Syntax for rolling back to Savepoint command: 
+ 
+
+         ROLLBACK TO SAVEPOINT_NAME;
+
+       you can ROLLBACK to any SAVEPOINT at any time to              return the appropriate data to its original state. 
+
+
+    EXAMPLE :-
+
+        From the above example Sample table1, Delete those         records from the table which have age = 20 and then           ROLLBACK the changes in the database by keeping               Savepoints.
+
+     Queries :
+
+       SAVEPOINT SP1;
+       //Savepoint created.
+       DELETE FROM Student WHERE AGE = 20;
+       //deleted
+       SAVEPOINT SP2;
+       //Savepoint created. 
+
+
+       Here SP1 is first SAVEPOINT created before deletion.In        this example one deletion have taken place.

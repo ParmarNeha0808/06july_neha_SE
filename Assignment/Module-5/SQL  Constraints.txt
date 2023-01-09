@@ -1,0 +1,58 @@
+
+Q -8  What is SQL Key Constraints writing an Example of SQL         Key Constraints.
+
+
+    Answer ->
+
+    SQL constraints are used to specify rules for the data        in a table.
+
+    Constraints are used to limit the type of data that can       go into a table. This ensures the accuracy and                reliability of the data in the table. If there is any         violation between the constraint and the data action, the     action is aborted. 
+
+    Constraints can be column level or table level. Column        level constraints apply to a column, and table level          constraints apply to the whole table.
+
+
+    * The following constraints are commonly used in SQL:
+
+
+    * NOT NULL :-  
+ 
+       Ensures that a column cannot have a NULL value.           Whenever a table's column is declared as NOT NULL,then        the value for that column cannot be empty for any of the      table's records.There must exist a value in the column to     which the NOT NULL constraint is applied.
+
+    - NOTE: NULL does not mean zero. NULL means empty column,       not even zero.
+
+    
+    * UNIQUE :-
+   
+        Ensures that all values in a column are different.
+     Duplicate values are not allowed in the columns to which      the UNIQUE constraint is applied.The column with the          unique constraint will always contain a unique value.
+     
+        This constraint can be applied to one or more than         one column of a table, which means more than one unique       constraint can exist on a single table.Using the UNIQUE       constraint, you can also modify the already created           tables.
+
+
+    * PRIMARY KEY :-
+
+         A combination of a NOT NULL and UNIQUE.Uniquely           identifies each row in a table.PRIMARY KEY Constraint         is a combination of NOT NULL and Unique constraints.
+     NOT NULL constraint and a UNIQUE constraint together          forms a PRIMARY constraint.
+
+         The column to which we have applied the primary          constraint will always contain a unique value and will        not allow null values.
+ 
+
+    * FOREIGN KEY :- 
+
+           Prevents actions that would destroy links between       tables.A foreign key is used for referential integrity.
+     When we have two tables, and one table takes reference        from another table, i.e., the same column is present in       both the tables and that column acts as a primary key         in one table. That particular column will act as a            foreign key in another table.
+
+
+    * CHECK :- 
+
+          Ensures that the values in a column satisfies a           specific condition.Whenever a check constraint is             applied to the table's column, and the user wants to          insert the value in it, then the value will first be          checked for certain conditions before inserting the           value into that column.
+
+
+    * DEFAULT :-
+
+        Sets a default value for a column if no value is           specified.Whenever a default constraint is applied to         the table's column, and the user has not specified the        value to be inserted in it, then the default value which      was specified while applying the default constraint will      be inserted into that particular column.
+
+
+    * CREATE INDEX :-
+
+        Used to create and retrieve data from the database         very quickly.CREATE INDEX constraint is used to create        an index on the table. Indexes are not visible to the         user, but they help the user to speed up the searching        speed or retrieval of data from the database.

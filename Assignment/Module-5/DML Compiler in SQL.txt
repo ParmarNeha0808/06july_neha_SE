@@ -1,0 +1,31 @@
+
+ Q-7:What is DML Compiler in SQL? 
+
+    Answer ->
+
+       What is DML compiler:
+     
+          DML Compiler: 
+
+            Translates DML statements in a query language         within low level instructions understandable through the      query evaluation engine. Attempts to transforms users         request  within an equivalent and well - organized from       for executing the query understandable through Data           Manager, Interprets DDL statements and records them           within a set of tables containing Meta data in a form         that can be used through other elements of a DBMS.
+
+             It processes the DML statements into low level       instruction (machine language), so that they can be           executed. DDL Interpreter: It processes the DDL               statements into a set of table containing meta data           (data about data).
+
+     DML stands for Data Manipulation Language.DML compiler        translates the DML statements which are there in a query      language into the low-level instructions which the query      evaluation engine understands easily.
+
+
+       * DML Commands in SQL :
+
+
+    DML is an abbreviation of Data Manipulation Language.
+
+       The DML commands in Structured Query Language change      the data present in the SQL database. We can easily           access, store, modify, update and delete the existing         records from the database using DML commands.
+
+     
+     Following are the four main DML commands in SQL:
+   
+
+     1. SELECT Command
+     2. INSERT Command
+     3. UPDATE Command
+     4. DELETE Command

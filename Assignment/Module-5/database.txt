@@ -1,0 +1,62 @@
+ 
+ Q-1 What do you understand By Database.
+
+   
+   Answer:-
+
+      DBMS stands for Data Base Management System.
+      DBMS = Database + Management System
+      Database is a collection of inter-related data and            Management System is a set of programs to store and           retrieve those data.
+      DBMS is a collection of inter-related data and set of         programs to store & access those data in an easy and          effective manner.
+      For Example, university database organizes the data           about students, faculty, and admin staff etc.
+      which helps in efficient retrieval, insertion and             deletion of data from it.
+      
+
+    * Need of DBMS:
+
+      Database systems are basically developed for large            amount of data. When dealing with huge amount of data,        there are two things that require optimization: Storage       of data and retrieval of data.
+ 
+     Storage:
+ 
+         According to the principles of database systems, the      data is stored in such a way that it acquires lot less        space as the redundant data (duplicate data) has been         removed before storage.
+
+     Fast Retrieval of data:
+
+        Along with storing the data in an optimized and           systematic manner, it is also important that we retrieve      the data quickly when needed. Database systems ensure         that the data is retrieved as quickly as possible. 
+
+     Purpose of Database Systems:
+    
+        The main purpose of database systems is to manage the      data. Consider a university that keeps the data of           students, teachers, courses, books etc. To manage this        data we need to store this data somewhere where we can        add new data, delete unused data, update outdated data,       retrieve data, and to perform these operations on data        we need a Database management system that allows us to        store the data in such a way so that all these                operations can be performed on the data efficiently.
+
+     
+     Function of DBMS:
+
+     1. Defining database schema: it must give facility for           defining the database structure also specifies access         rights to authorized users.
+
+     2. Manipulation of the database: The dbms must have              functions like insertion ofrecord into database               updating of data, deletion of data, retrieval of data
+
+     3. Sharing of database: The DBMS must share data items           for multiple users by maintaining consistency of data
+
+     4. Protection of database: It must protect the database          against unauthorized users.
+
+     5. Database recovery: If for any reason the system fails         DBMS must facilitate data base recovery.
+
+
+    * Disadvantages in File Processing:
+
+     - Data redundancy and inconsistency.
+     - Difficult in accessing data.
+     - Data isolation.
+     - Data integrity
+     - Concurrent access is not possible.
+     - Security Problems.
+
+
+    * Advantages of DBMS:
+
+     1. Data Independence
+     2. Efficient Data Access.
+     3. Data Integrity and security.
+     4. Data administration.
+     5. Concurrent access and Crash recovery
+     6. Reduced Application Development Time.

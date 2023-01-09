@@ -1,0 +1,53 @@
+
+   Q-5 What do you understand By Data Redundancy?
+
+   Answer:-
+
+      Data Redundancy:
+
+         Data redundancy is a condition created within a            database or data storage technology in which the same         piece of data is held in two separate places.
+
+         This can mean two different fields within a single        database, or two different spots in multiple software         environments or platforms. Whenever data is repeated, it      basically constitutes data redundancy.
+
+         Data redundancy can occur by accident but is also         done deliberately for backup and recovery purposes.
+
+  
+   * How does data redundancy occur?:
+
+      
+        Sometimes data redundancy happens by accident while       other times it is intentional. Accidental data                redundancy can be the result of a complex process or          inefficient coding while intentional data redundancy can      be used to protect data and ensure consistency — simply       by leveraging the multiple occurrences of data for            disaster recovery and quality checks.
+
+
+       If data redundancy is intentional, it’s important to       have a central field or space for the data. This allows       you to easily update all records of redundant data when       necessary. When data redundancy isn’t purposeful, it can      lead to a variety of issues which we’ll discuss below.
+
+      
+     * advantages of Data Redundancy :
+
+    1. Alternative data backup method
+    2. Better data security 
+    3. Faster data access and updates
+    4. Improved data reliability
+
+   
+    *  disadvantages of Data Redundancy :
+
+    1. Increase in data corruption
+    2. Increase in database size
+    3. Increase in cost
+
+
+    * reduce data redundancy :
+
+    Fortunately, it is possible to reduce unintentional cases     of data redundancy that often lead to operational and         financial problems.
+
+    - Master data:
+   
+        Master data is a single source of common business         data that is shared across several applications or            systems. Although master data does not reduce the             occurrences of data redundancy, it allows companies to        work around and accept a certain level of data                redundancy.
+
+    - Database normalization :
+
+        Database normalization is the process of efficiently      organizing data in a database so that redundant data is       eliminated. This process can ensure that all of a             company’s data looks and reads similarly across all           records.
+
+    * Reducing data redundancy with data management:
+
+         Although data redundancy in a database or file            storage system can benefit an organization when it’s         intentional, this process can also be detrimental when        done by accident. Companies can alleviate the headache        that often comes with data redundancy with Talend Data        Fabric.  

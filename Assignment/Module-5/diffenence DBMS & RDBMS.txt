@@ -1,0 +1,81 @@
+   
+   Q-3:What is Difference between DBMS and RDBMS?
+
+
+	Answer:-
+
+
+       DBMS and RDBMS enable us to store data in a structured        form in a database. This blog explores the difference         between DBMS and RDBMS.
+
+
+    -> What is DBMS (Database Management System)?:
+
+      
+      * DBMS or a Database Management System is the computer          software that allows users to store, manage, update,          retrieve, and secure a database.It helps in creating          and maintaining data and enabling the individual              business application to extract the desired data. 
+        DBMS (Database Management System) was first                   introduced in 1960 by Charles W. Bachman to store             data.
+
+
+        A DBMS serves as an interface between the data and            the software application. It takes the request for            data from an application and tells the operating              system to provide the required data. In large                 systems, a DBMS enables users and other third-party           software to store and retrieve data.
+
+
+    * Why Use DBMS?:
+
+
+	- Helps in maintaining data uniformity
+	- Ensures effective data integration
+	- Increases productivity of the end-user
+	- Facilitates quick decision making
+	- Efficiently handles large set of data
+	- Improves data sharing and data security
+	- DBMS are versatile 
+        – we can access them on computers, tablets,and mobile           devices.
+
+
+     -> What is an RDBMS (Relational Database Management              System)?
+
+        Created in the 1970s, RDBMS (Relational Database              Management System) is an advanced version of a DBMS.          It enables users to access data more efficiently than         DBMS.
+
+        A relational database is a type of database that              stores data in a well-organized arrangement (in               tables), consisting of rows and columns. It uses a            structure that allows users to identify and access            data in relation to other data in the database.
+
+        A relational database management system (RDBMS)               allows users to create, update, and administer a              relational database. Many relational database                 management systems use SQL (Structured Query                  Language) to access the database.
+
+       * Why Use RDBMS?:
+
+       - Easy usability
+       - Allows database administrators to control activities          over the database
+       - Can handle huge quantities of data uniformly
+       - Offers data safety, it helps against sudden system            power failures and accidental shutdown
+       - Concurrent Access – database can be accessed from             more than one connection (user) at a time.
+
+
+	* Difference between DBMS and RDBMS:
+
+     DBMS ( Database Management System):
+
+     . Stores data in the form of a file.
+     . DBMS stores data in a navigational or a hierarchical          format.
+     . No relationship is established in the data.
+     . Does not support normalization.
+     . Subject to low security in data manipulation.
+     . No relationship between data.
+     . DBMS may not follow the ACID (Atomicity, Consistency,         Isolation, Durability) model.
+     . Handles a small quantity of data.
+     . No support for distributed databases.
+     . DBMS can fast become redundant.
+     . DBMS has minimum software and hardware requirements.
+     . Only a single user can access the database.
+     . DBMS examples include file systems, XML, and Window           Registry.
+
+
+     RDBMS (Relational Database Management System):
+
+     . Stores data in table format.
+     . It stores data in the form of rows and columns. Users         can extract any information using the column name and         the row index.
+     . The relationship between the information is                   established with the use of foreign keys.
+     . Supports normalization.
+     . Offers various security levels during data                    manipulation.
+     . Data is stored in the form of tables, which are               related to each other.
+     . It follows the ACID model.
+     . Handles a large amount of data.
+     . Supports distributed database.
+
