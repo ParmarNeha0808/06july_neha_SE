@@ -1,0 +1,89 @@
+
+ Q-1 : Define the terms: Website, Webpage, Web browser, Web          server,HTML,CSS.
+
+
+      Answer->
+
+       * Website:
+
+            -> What is Website?:
+
+
+       - Website – Every day you visit on internet
+       - Follows some rules & regulations i.e. client-server           architecture standard
+       - Websites – providing information from anywhere in             world
+
+
+       * Website – basic parts:
+
+
+       - Websites are consist of three parts
+       - GUI – web pages that you visit
+       - Coding – logic that provides functionality or makes           website dynamic
+       - Database – manages data provided by end user
+       - For GUI building HTML is used from long time
+
+        
+         * wabpage:
+
+         -> What is wabpage ?:
+
+             
+           A web page is a simple document displayable by           a browser. Such documents are written in the HTML             language (which we look into in more detail in other          articles). A web page can embed a variety of different        types of resources such as: style information —               controlling a page's look-and-feel.
+
+          A web page or webpage is a document, commonly             written in HTML, that is viewed in an Internet browser.       A web page can be accessed by entering a URL address          into a browser's address bar. A web page may contain          text, graphics, and hyperlinks to other web pages and         files.
+
+        * How to open a web page:
+
+         Viewing a web page requires a browser, like Internet      Explorer, Edge, Safari, Firefox, or Chrome. For example,      you are reading this web page using a browser. Once in a      browser, you can open a web page by entering the URL in       the address bar.
+
+       * When was the first web page created?
+
+           
+           The first web page was created at CERN by Tim           Berners-Lee on August 6, 1991. You can visit and browse       the first website and the first web page at the               info.cern.ch address.
+
+
+       -> What is Web browser ?:
+
+ 
+           A web browser is application software for           accessing websites. When a user requests a web page           from a particular website, the browser retrieves its          files from a web server and then displays the page the      user's screen. Browsers are used on a range of devices,       including desktops, laptops, tablets, and smartphones. 
+
+
+          In 2020, an estimated 4.9 billion people used a      browser. The most used browser is Google Chrome, with a      65% global market share on all devices, followed by      Safari with 18%.
+
+
+           A web browser is not the same thing as a search        engine, though the two are often confused. A search     engine is a website that provides links to other     websites. However, to connect to a website's server and     display its web pages,a user must have a web browser     installed. In some technical contexts, browsers are     referred to as user agents.
+
+
+      -> what is web server ?:
+
+               
+         Definition:-
+
+            A web server is a computer that runs websites.          It's a computer program that distributes web pages as         they are requisitioned. The basic objective of the web        server is to store, process and deliver web pages to          the users. This intercommunication is done using             Hypertext Transfer Protocol (HTTP). 
+
+           These web pages are mostly static content that          includes HTML documents, images, style sheets, test           etc. Apart from HTTP, a web server also supports SMTP         (Simple Mail transfer Protocol) and FTP (File Transfer        Protocol) protocol for emailing and for file transfer         and storage.
+
+    
+        * what is HTML ?:
+
+
+    - HTML, which stands for Hyper Text Markup Language, is         the predominant markup language for web pages.
+
+    - It provides a means to create structured documents by         denoting structural semantics for text such as             headings, paragraphs, lists etc as well as for links,         quotes, and other items.
+
+    - It allows images and objects to be embedded and can be       used to create interactive forms.
+
+    - It is written in the form of HTML elements consisting         of "tags" surrounded by angle brackets within the web         page content.
+
+    - It can include or can load scripts in languages such as       JavaScript which affect the behavior of HTML processors       like Web browsers; and Cascading Style Sheets (CSS) to
+      define the appearance and layout of text and other            material.
+
+    - The W3C, maintainer of both HTML and CSS standards,           encourages the use ofCSS over explicit presentational         markup.
+
+    - HTML is the encoding scheme used to create and format a       web document.
+
+
+              
+                  
+              
